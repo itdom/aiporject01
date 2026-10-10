@@ -15,3 +15,15 @@ mvn compile exec:java
 ```text
 Hello World!
 ```
+
+运行第二个程序 HelloWorld2：
+
+```bash
+mvn compile exec:java -Dexec.mainClass=com.example.HelloWorld2
+```
+
+输出：
+
+```text
+Hello World2!
+```
